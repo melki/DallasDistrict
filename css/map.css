@@ -1,0 +1,16 @@
+
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  opacity: .3;
+  stroke: #aaa;
+  stroke-width:1px;
+}
+
+.effect-layer{
+  pointer-events:none;
+}

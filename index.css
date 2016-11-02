@@ -1,0 +1,97 @@
+*
+{
+    box-sizing : border-box;
+}
+
+body
+{
+    color : #FFF;
+    font-family: 'Verdana';
+}
+
+.slide-background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    z-index: -1;
+}
+
+#slide-one .slide-background
+{
+    background : #000 url('img/blurred-bg.jpg');
+    background-size : cover;
+}
+
+#slide-two .slide-background
+{
+    background : #000 url('img/kids-bg-1.jpg');
+    background-size : cover;
+}
+
+#slide-three .slide-background
+{
+    background : #000 url('img/kids-bg-2.jpg');
+    background-size : cover;
+}
+
+#slide-four .slide-background
+{
+    background : #000 url('img/kids-bg-2.jpg');
+    background-size : cover;
+    filter : blur(20px);
+}
+
+.slide-content
+{
+    width : 100%;
+    height : 100vh;
+    display : flex;
+    padding : 5vh;
+}
+
+#slide-one .slide-content,
+#slide-three .slide-content
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+}
+
+#slide-two .slide-content,
+#slide-four .slide-content
+{
+    align-items : center;
+}
+
+.description-unit
+{
+    font-size: 2em;
+    width: 30vw;
+}
+
+.description-unit::before
+{
+    content : '';
+    display : block;
+    width : 50%;
+    margin-bottom : 10px;
+    height : 5px;
+    background : yellow;
+}
+
+.chapter-title
+{
+    margin-bottom : 0;
+}
+
+.chapter-title-line
+{
+    width: 30%;
+    border: 0;
+    border-bottom: 5px solid yellow;
+}
