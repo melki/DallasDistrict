@@ -23,7 +23,8 @@ $(document).ready(function()
         if(index === 4)
         {
             $('#slide-four .slide-content .description-unit').velocity('transition.bounceLeftIn');
-            $('#slide-four .slide-content img').velocity('transition.flipXIn');
+            $('#slide-four .slide-content #map').velocity('transition.flipXIn');
+            go();
         }
     };
 

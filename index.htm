@@ -4,10 +4,12 @@
         <link rel="stylesheet" href="css/jquery.fullPage.css" />
         <link rel="stylesheet" href="index.css" />
 
+        <script src="js/d3.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/jquery.fullPage.js"></script>
         <script src="js/velocity.js"></script>
         <script src="js/velocity.ui.js"></script>
+        <script src="js/map.js"></script>
     </head>
 
     <body>
@@ -37,9 +39,12 @@
 
             <div class="section" id="slide-four">
                 <div class="slide-background"></div>
-                <div class="slide-content">
-                    <div class="description-unit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <img src="img/chart-example.png" width="50%" />
+                <div class="slide-content" >
+                    <div class="description-unit">
+                    <span id="isdName">Test</span></br>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div style='width: 40%; margin-left:150px;'  id="map"></div>
                 </div>
             </div>
         </div>
